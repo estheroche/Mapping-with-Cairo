@@ -14,7 +14,3 @@ sierra = true
 casm = true
 
 
-[tool.sncast.test_1]
-account = "test_1"
-accounts-file = "/Users/mac/.starknet_accounts/starknet_open_zeppelin_accounts.json"
-url = "https://starknet-goerli.infura.io/v3/14d4909928f148238ba1da4db2886e77"
