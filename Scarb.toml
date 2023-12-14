@@ -1,0 +1,20 @@
+[package]
+name = "class_character"
+version = "0.1.0"
+edition = "2023_10"
+
+# See more keys and their definitions at https://docs.swmansion.com/scarb/docs/reference/manifest.html
+
+[dependencies]
+snforge_std = { git = "https://github.com/foundry-rs/starknet-foundry", tag = "v0.12.0" }
+starknet = "2.4.0"
+
+[[target.starknet-contract]]
+sierra = true
+casm = true
+
+
+[tool.sncast.test_1]
+account = "test_1"
+accounts-file = "/Users/mac/.starknet_accounts/starknet_open_zeppelin_accounts.json"
+url = "https://starknet-goerli.infura.io/v3/14d4909928f148238ba1da4db2886e77"
